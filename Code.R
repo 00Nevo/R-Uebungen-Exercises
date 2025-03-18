@@ -1,3 +1,5 @@
+2.2 Creating, listing and deleting the objects in memory
+
 > n <- 15
 > n [1] 15
 Fehler: unerwartete numerische Konstante in "n [1] 15"
