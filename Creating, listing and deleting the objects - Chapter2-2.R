@@ -24,6 +24,7 @@ Fehler: unerwartete numerische Konstante in "n [1] 15"
 [1] 10
 > X
 [1] 10
+
 > n <- 10+2
 > n
 [1] 12
