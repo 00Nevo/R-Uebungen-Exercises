@@ -31,6 +31,7 @@ Fehler: unerwartete numerische Konstante in "n [1] 15"
 > n <-3 + rnorm(1)
 > n
 [1] 3.175813
+
 > (10 +2) *5
 [1] 60
 > name <- "Carmen"; n1 <- 10; n2 <- 100; m <- 0.5
