@@ -34,13 +34,16 @@ Fehler: unerwartete numerische Konstante in "n [1] 15"
 
 > (10 +2) *5
 [1] 60
+
 > name <- "Carmen"; n1 <- 10; n2 <- 100; m <- 0.5
 > 1s()
 Fehler: unerwartetes Symbol in "1s"
 > ls()
 [1] "m"    "n"    "n1"   "n2"   "name" "x"    "X"   
+
 > ls(pat = "m")
 [1] "m"    "name"
+
 > ls(pat = "^m"
 + 
 + kj
@@ -49,6 +52,7 @@ Fehler: unerwartetes Symbol in:
 kj"
 > ls(pat = "^m")
 [1] "m"
+ 
 > ls.str()
 m :  num 0.5
 n :  num 3.18
@@ -57,6 +61,7 @@ n2 :  num 100
 name :  chr "Carmen"
 x :  num 1
 X :  num 10
+
 > M<- data.frame(n1,n2,m)
 > ls.str(pat="M")
 M : 'data.frame':       1 obs. of  3 variables:
