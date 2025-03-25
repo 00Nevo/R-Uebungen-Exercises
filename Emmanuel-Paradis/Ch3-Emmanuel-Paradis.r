@@ -27,9 +27,16 @@ Error: Object 'expl' not found
 
 3.5.3 Operators.
 ## i get following error with what it is written in the book but in the book they get no error!?
+## me
 > x <- 0.5
 > 0 <x <1
 Error: Unexpected(s) '<' in "0 <x <"
+
+## book 
+> x <- 0.5
+> 0 < x < 1
+[1] FALSE
+
 ##  ChatGpt says that in R, the syntax for comparisons isn't directly the same as in some other programming languages (e.g., Python). 
 ## The error occurs because i am trying to chain comparison operators like 0 < x < 1, which isn't valid in R.
 ## so i need to compare if x is between 0 and 1
