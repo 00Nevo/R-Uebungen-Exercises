@@ -25,6 +25,19 @@ Error: Object 'expl' not found
 > print(derivative)
 2 * x + 3
 
+3.5.3 Operators.
+## i get following error unlike what it is written in the book 
+> x <- 0.5
+> 0 <x <1
+Error: Unexpected(s) '<' in "0 <x <"
+##  ChatGpt says that in R, the syntax for comparisons isn't directly the same as in some other programming languages (e.g., Python). 
+## The error occurs because i am trying to chain comparison operators like 0 < x < 1, which isn't valid in R.
+## so i need to compare if x is between 0 and 1
+ 
+x <- 0.5
+result <- (x > 0) & (x < 1)
+print(result)
+TRUE
 
 3.5.1 Creating objects
 
