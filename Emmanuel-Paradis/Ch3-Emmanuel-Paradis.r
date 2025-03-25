@@ -26,7 +26,7 @@ Error: Object 'expl' not found
 2 * x + 3
 
 3.5.3 Operators.
-## i get following error unlike what it is written in the book 
+## i get following error with what it is written in the book but in the book they get no error!?
 > x <- 0.5
 > 0 <x <1
 Error: Unexpected(s) '<' in "0 <x <"
