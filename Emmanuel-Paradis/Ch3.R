@@ -58,6 +58,36 @@ TRUE
 
 3.5.8 Matrix computation
 
+> diag (m1)
+[1] 1 1
+> diag (rbind(m1, m2) %*% cbind (m1, m2)
++ d
+Error: unexpected Symbol in: 
+"diag (rbind(m1, m2) %*% cbind (m1, m2)
+d"
+## in book is  only diag (rbind(m1, m2) %*% cbind (m1, m2)
+## From ChatGPt. It looks like there is a syntax error in your R code. The issue seems to be with the placement of the variable d, f, or s at the end of the expression. When you want to multiply matrices, you need to make sure there are no extraneous characters after the matrix multiplication.
+## Here’s how to fix the syntax:
+##  Make sure m1 and m2 are defined properly before running the matrix operations.
+##  Correctly close the parentheses and ensure the code doesn’t have unwanted characters.
+
+m1 <- matrix(1:4, nrow = 2)  # Example matrix m1
+m2 <- matrix(5:8, nrow = 2)  # Example matrix m2
+
+# Compute the diagonal of the matrix resulting from multiplying the block matrices
+result <- diag(rbind(m1, m2) %*% cbind(m1, m2))
+print(result)
+
+Explanation:
+
+    rbind(m1, m2): This function binds m1 and m2 row-wise.
+
+    cbind(m1, m2): This function binds m1 and m2 column-wise.
+
+    %*%: Matrix multiplication operator.
+
+    diag(): Extracts the diagonal elements from the resulting matrix.
+
 
 
 
