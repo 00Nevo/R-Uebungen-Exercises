@@ -21,6 +21,7 @@ col="darkblue")
 > densityplot(~ x | y, panel =function (x,...) { panel.densityplot(x, col="DarkOliveGreen",...) panel.mathdensity(dmath=dnorm, args=list(mean=mean(x), sd=sd(x)), col="darkblue")})
 Error: unexpected Symbol in "densityplot(~ x | y, panel =function (x,...) { panel.densityplot(x, col="DarkOliveGreen",...) panel.mathdensity"
 > 
+## after the error i tried installing the Lattice package but error is still there.
 
 ..
 5 Statistical analyses with R
