@@ -23,5 +23,9 @@ Error: unexpected Symbol in "densityplot(~ x | y, panel =function (x,...) { pane
 > 
 ## after the error i tried installing the Lattice package but error is still there.
 
+> xyplot(lat ~ long | depth.cat, data =quakes)
+error in xyplot(lat ~ long | depth.cat, data = quakes) : 
+  function "xyplot" cannot be found
+
 ..
 5 Statistical analyses with R
