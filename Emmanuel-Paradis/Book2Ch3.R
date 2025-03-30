@@ -2,6 +2,39 @@
 Programming R Functions
 
 3.1 Environments
+## differences between a Get function and an Assign function
+1. get() Function
+
+    Purpose: get() is used to retrieve the value of a variable (or object) by name.
+
+    Usage: It takes a string (the name of a variable) and returns the value of the variable with that name.
+
+    Syntax: get("variable_name")
+
+    Example:
+
+    x <- 10  # Assign a value to 'x'
+    value <- get("x")  # Retrieve the value of 'x' using get()
+    print(value)  # This will print 10
+
+    Explanation: get() allows you to access the value of a variable whose name is passed as a string. This is particularly useful when the variable name is dynamically determined.
+
+2. assign() Function
+
+    Purpose: assign() is used to assign a value to a variable by name.
+
+    Usage: It takes two arguments: a string (the name of the variable) and the value to be assigned to that variable.
+
+    Syntax: assign("variable_name", value)
+
+    Example:
+
+assign("y", 25)  # Assigns 25 to a variable named 'y'
+print(y)  # This will print 25
+
+Explanation: assign() is used to assign values to variables when the variable name is given as a string. This is useful when the name of the variable is dynamic and not directly available in the script.
+
+
 3.2 Arguments
 3.2.2 Missing and NULL Arguments
 3.2.3 The ‘...’ Argument
