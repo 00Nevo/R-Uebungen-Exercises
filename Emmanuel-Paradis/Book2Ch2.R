@@ -29,6 +29,12 @@ NULL
 $b
 [1] 3
 
+##without list
+> z[1] <- NULL
+2 > z
+3 $b
+4 [1] 3
+
 Explanation:
     The first element a is now replaced by NULL.
     The second element b remains unchanged.
