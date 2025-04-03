@@ -53,7 +53,7 @@ Differences:
 
         cat() outputs the text exactly as provided, without any extra formatting or type information.
 
-        print() outputs the text along with some additional information about the object (for example, showing a data frame's structure or printing NULL when appropriate).
+        print() outputs the text along with some additional information about the object (for example, showing a data frame s structure or printing NULL when appropriate).
 
 Example of cat():
 
@@ -85,7 +85,7 @@ When to use each:
 3.3 Return Value
 3.3.1 Implicit and Explicit Returns
 ## i am asking ChatGpt about the order of the strings in a program example: 
-In the code you've provided, the string outputs don't follow the expected order because of how the on.exit() function works in R. Let's break it down:
+In the code you've provided, the string outputs don't follow the expected order because of how the on.exit() function works in R. Lets break it down:
 
 Code Walkthrough:
 
@@ -140,7 +140,7 @@ The key takeaway is that the code inside on.exit() is designed to execute last a
 ##is assign used both in R and SQLite?
 ChatGPT:
 
-In both R and SQLite, the concept of "assignment" exists, but it's used differently in each context. Let’s break it down:
+In both R and SQLite, the concept of "assignment" exists, but its used differently in each context. Let’s break it down:
 In R:
 
     Assignment in R refers to assigning values to variables.
@@ -178,7 +178,7 @@ While both R and SQLite use the = operator for assignments, their contexts are d
 
     In SQLite, = is used within SQL queries to assign or update values in a database.
 
-So, assign is not directly used in SQLite, but the = operator is used for assignments in SQL queries.
+ So, assign is not directly used in SQLite, but the = operator is used for assignments in SQL queries.
 
 3.4 Recursive Functions
 3.5 Classes and Generic Functions
