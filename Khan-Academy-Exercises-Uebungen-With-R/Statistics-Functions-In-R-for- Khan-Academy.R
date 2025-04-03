@@ -3,6 +3,7 @@
 > mean_value <- mean(numbers)
 > print(mean_value)
 [1] 6.333333
+
 ##Calculate Median Value
 > numbers <- c(4,9,6,3,4,2)
 > median_value <- median (numbers)
