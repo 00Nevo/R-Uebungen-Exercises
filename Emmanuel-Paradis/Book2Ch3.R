@@ -77,7 +77,7 @@ When to use each:
 
     cat(): Use it when you want to print something without any additional formatting and control the newline behavior yourself.
 
-    print(): Use it when you want R to automatically handle the output, especially if you're dealing with more complex objects like data frames, lists, or vector
+    print(): Use it when you want R to automatically handle the output, especially if you re dealing with more complex objects like data frames, lists, or vector
 
 
                                                                                           
@@ -85,7 +85,7 @@ When to use each:
 3.3 Return Value
 3.3.1 Implicit and Explicit Returns
 ## i am asking ChatGpt about the order of the strings in a program example: 
-In the code you've provided, the string outputs don't follow the expected order because of how the on.exit() function works in R. Lets break it down:
+In the code you ve provided, the string outputs don t follow the expected order because of how the on.exit() function works in R. Lets break it down:
 
 Code Walkthrough:
 
@@ -105,7 +105,7 @@ Explanation of Code Behavior:
 
     When you call bar(), the following happens:
 
-        Step 1: The on.exit() expression is registered. However, it doesn't run immediately — it is scheduled to run only after the function finishes execution.
+        Step 1: The on.exit() expression is registered. However, it doesn t run immediately — it is scheduled to run only after the function finishes execution.
 
         Step 2: cat("Starting... ") is executed, which prints Starting....
 
@@ -117,7 +117,7 @@ Output:
 
     End. and Goodbye! are printed afterward because the code inside on.exit() is executed when the function exits.
 
-    The function then returns 0 (this isn't printed by the cat() function, but it's the return value of bar()).
+    The function then returns 0 (this isn t printed by the cat() function, but it s the return value of bar()).
 
 So, the output will be:
 
