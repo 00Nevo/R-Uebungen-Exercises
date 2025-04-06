@@ -2,7 +2,7 @@
 
 > n <- 15
 > n [1] 15
-Fehler: unerwartete numerische Konstante in "n [1] 15"
+Error: unexpected numeric constant in "n [1] 15"
 > n
 [1] 15
 > n
@@ -37,7 +37,7 @@ Fehler: unerwartete numerische Konstante in "n [1] 15"
 
 > name <- "Carmen"; n1 <- 10; n2 <- 100; m <- 0.5
 > 1s()
-Fehler: unerwartetes Symbol in "1s"
+Error: unexpected symbol in "1s"
 > ls()
 [1] "m"    "n"    "n1"   "n2"   "name" "x"    "X"   
 
@@ -47,7 +47,7 @@ Fehler: unerwartetes Symbol in "1s"
 > ls(pat = "^m"
 + 
 + kj
-Fehler: unerwartetes Symbol in: 
+Error: unexpected symbol  in: 
 "
 kj"
 > ls(pat = "^m")
@@ -70,10 +70,10 @@ M : 'data.frame':       1 obs. of  3 variables:
  $ m : num 0.5
 > ls.str(pat="M", max.level=-1)
 Fehler in ls.str(pat = "M", max.level = -1) : 
-  unbenutztes Argument (max.level = -1)
+  unused Argument (max.level = -1)
 > ls.str(pat="M", max.level=-1)
 Fehler in ls.str(pat = "M", max.level = -1) : 
-  unbenutztes Argument (max.level = -1)
+  unused Argument (max.level = -1)
 > # List objects starting with "M"
 > objects_with_M <- ls(pattern = "^M")
 > #??
