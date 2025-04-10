@@ -22,6 +22,7 @@ Data Manipulation
 4.3.4 Building Strings in R vs. in Files
 
 4.4 Indexing
+4.4.1 Recoding Data With Indexing
 
 4.5 Exercises
 
