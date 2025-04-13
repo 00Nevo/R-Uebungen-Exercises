@@ -28,5 +28,12 @@ get_mode <- function(x)
   ux[which.max(tabulate(match(x, ux)))]
 }
 
+## how to sort numbers in order to calculate median
+numbers <- c(8, 10, 10, 10, 6, 7, 8)
+sorted_numbers <- sort(numbers)
+print(sorted_numbers)
 
+## how to do median of numbers 
+median(numbers)
+# [1] 8
 
