@@ -14,3 +14,19 @@
 > median_value <- median (numbers)
 > print(median_value)
 [1] 8
+
+##Calculate Statistical Mode Value
+> get_mode <- function (x)
++ {ux <-unique (x)
++ ux[which.max(tabulate(match(x,ux)))]}
+> numbers <- c(8,10,10,10,6,7,8)
+> get_mode(numbers)
+[1] 10
+
+get_mode <- function(x) 
+{ ux <- unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+}
+
+
+
